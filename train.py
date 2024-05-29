@@ -77,7 +77,7 @@ def train_model(epochs):
             optimizer.zero_grad()
             loss.backward()
             optimizer.step()
-        print(f"Epoch {epoch+1}, Loss: {loss.item()}")
+            print(f"Epoch {epoch+1}, Loss: {loss.item()}")
 
 
         # 保存模型的状态字典
